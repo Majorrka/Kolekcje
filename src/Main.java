@@ -11,6 +11,7 @@ public class Main {
         nazwy.add("Monitor LG");
         nazwy.add("Konsola PS5");
 
+
         Stack<String> historiaProduktow = new Stack<>();
 
         String naprawione = nazwy.remove(0);
@@ -18,7 +19,7 @@ public class Main {
 
 
         System.out.println("Pozostale urzadzenia do naprawy: ");
-        for(String urz : historiaProduktow){
+        for(String urz : nazwy){
             System.out.println("- " + urz);
         }
 
